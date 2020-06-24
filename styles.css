@@ -1,6 +1,7 @@
-html, body{
-    margin: 0;
-    height: 100%;
+html,
+body {
+  margin: 0;
+  height: 100%;
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
@@ -13,36 +14,67 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
-.sidebar{
-    /* pxالعرض هنا يجب ان يكون 120 */
+.sidebar {
+  padding: 6px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: black;
+  width: 120px;
+  color: white;
+  height: 100%;
+  text-decoration: none;
+
+  /* pxالعرض هنا يجب ان يكون 120 */
 }
 
-.header{
-    /* pxالطول هنا يجب ان يكون 80 */
+.header {
+  padding: 6px;
+  border-radius: 20px;
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 6px;
+  /* pxالطول هنا يجب ان يكون 80 */
 }
 
-.main{
-
+.main {
+  padding: 6px;
+  margin: 6px;
+  width: 100%;
+  height: 81.5%;
+  border-radius: 20px;
+  background-color: cyan;
 }
 
-a{
-    color: darkgray;
-    /* اجعل شكل اللنك من غير خط اسفل الكلام */
+a:hover {
+  background-color: white;
+  text-decoration-style: none;
+  color: white;
+
+  /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
 
-
-
-h1{
-    margin: 0;
-    margin-right: 5px;
+h1 {
+  margin: 0;
+  margin-right: 5px;
 }
 
-h2{
-    margin: 0;
-    margin-left: 5px;
+h2 {
+  margin: 0;
+  margin-left: 5px;
 }
 
+p {
+  text-align: center;
+}
+.big {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
